@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:visibility="visible"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:id="@+id/fixed"
+        android:src="@drawable/ic_baseline_person_24"
+        android:background="#8F7DAF"/>
+
+    <TextView
+        android:id="@+id/idTVName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_200"
+        android:padding="8dp"
+        android:text="Name"
+        android:textColor="@color/white"
+        android:layout_below="@+id/fixed"
+        android:textSize="20sp"/>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="5dp"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/idTVName"
+        android:elevation="5dp">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/calltext"
+                android:layout_margin="6dp"
+                android:text="call"
+                android:textSize="25sp"
+                android:layout_toRightOf="@+id/calling"
+               android:layout_toEndOf="@+id/calling"
+                android:textStyle="bold"/>
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:id="@+id/calling"
+                android:layout_centerVertical="true"
+                android:layout_margin="10dp"
+                android:src="@drawable/ic_baseline_call_24"/>
+    </RelativeLayout>
+
+        </RelativeLayout>
+

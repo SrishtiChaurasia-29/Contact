@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/createname"
+        android:layout_margin="5dp"
+        android:hint="Enter Contact Name"
+        android:textSize="15sp"
+        android:inputType="text"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/createmail"
+        android:hint="Enter Email Address "
+        android:layout_margin="5dp"
+        android:textSize="15sp"
+        android:inputType="textEmailAddress"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/createplace"
+        android:hint="Place"
+        android:layout_margin="5dp"
+        android:textSize="15sp"
+        android:inputType="text"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/phoneno"
+        android:textSize="15sp"
+        android:inputType="phone"
+        android:hint="Enter Number"
+        android:layout_margin="5dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn23"
+        android:layout_margin="5dp"
+        android:text="save"
+        android:textStyle="bold"
+        android:textSize="15sp"/>
+
+
+</LinearLayout>
